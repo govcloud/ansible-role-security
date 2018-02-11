@@ -23,4 +23,6 @@ script:
     || (echo 'fail2ban is on: fail' && exit 1)
 
 notifications:
+  slack:
+    secure: mpEx1h1VmT2aHEde+8M7lKlyRQX7kvytARKM+A6WaHOf0PLBFxa2uq3buGQVR/uTth9rhsFW1V5o821LQur44kKOLp+Dw9nlrUv2M4dWizj92OOdUvUeJ6A5Ts0nLCFhurLeiMJhZRtp4HfLVsZQfLqrLInfRBnBeL9Itb5rYR7VzR64TiCY2hQfQMuuU9yH1Y6QJONDphpEkGFyz0uw90LUnM1leZRMwqEHH/uTtzJ7Ob3fFJYzD+5H7wFi7RY2M+YdDhNO6wPpgswH6Gn1pnKTf7c0Abop2WW0FzxRwZkw+LOEo7q/1QzMD33hlkKORSMlwRiYrgqdRAv5VRWwjS1jwU+Wt9b8er1hWTWENjMtia8Nh5E8r/kljJRCjsai3CjozR87U+ToKg+IH8Reztpt0E0KTNrITuIrx9ERrAF/+cUwRRJAOusi3cxt4a6zN65+aWejc8FNjOtjEL03QUlYGbalpvYFSjI+LmSAr+EhocBY11/l23tk8Z8sWp9VEwjaqi4EDpZhIZpk/WPgbgSFHS5gUG0pBKCX/Vk0D77h6RICwbYM5/GkyboX1EDiFz5GDQQNGTlMgt0CXf26ae204t3f3UtWJ1CL5D+DWYQLXcwrsl2XJ30FwSWoFZqywqrtVFgYA+WeTeupKuNgJR7VmYt/yIcmaRYpy0pGMnk=
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
