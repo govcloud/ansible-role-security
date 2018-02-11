@@ -1,0 +1,21 @@
+---
+# SSH
+security_ssh_port: 22
+security_ssh_password_authentication: "yes"
+security_ssh_permit_root_login: "no"
+security_ssh_usedns: "no"
+security_ssh_permit_empty_password: "no"
+security_ssh_challenge_response_auth: "no"
+security_ssh_gss_api_authentication: "no"
+security_ssh_x11_forwarding: "no"
+
+# Sudoers
+security_sudoers_passwordless: []
+security_sudoers_passworded: []
+
+# Updates
+security_autoupdate_enabled: true
+security_autoupdate_blacklist: []
+
+# Logging
+security_fail2ban_enabled: true
